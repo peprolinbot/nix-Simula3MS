@@ -1,6 +1,14 @@
-# nix-Simula3MS
+<div align="center">
+
+<img src="./icon.svg" alt="Icon" width="150"/>
+
+<br>
 
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
+</div>
+
+# nix-Simula3MS
 
 This is a simple packaging of [Simula3MS](https://simula3ms.des.udc.es), an education-oriented MIPS simulator which is widely used at the [FIC](https://fic.udc.es/), using [Nix Flakes](https://zero-to-nix.com/concepts/flakes/).
 
@@ -44,3 +52,7 @@ inputs = {
 I have not been able to find license information about the program itself, neither the source code for it.
 
 The content in this repo itself is licensed under the [MIT license](./LICENSE).
+
+### Logo
+
+The logo has been created by me in Inkscape to have something to show in an application menu, and can be used under the [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/).
