@@ -1,9 +1,13 @@
 <div align="center">
-
+  
 <img src="./icon.svg" alt="Icon" width="150"/>
+
+</div>
 
 <br>
 
+<div align="center">
+  
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
 </div>
