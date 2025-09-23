@@ -20,12 +20,12 @@ Here is the original program description:
 
 You can run it quickly with:
 ```bash
-nix run git+https://git.peprolinbot.com/peprolinbot/nix-Simula3MS
+nix run github:peprolinbot/nix-Simula3MS
 ```
 
 You can also [install it to your profile](https://nix.dev/manual/nix/2.31/command-ref/new-cli/nix3-profile-install) with:
 ```bash
-nix profile install git+https://git.peprolinbot.com/peprolinbot/nix-Simula3MS
+nix profile install github:peprolinbot/nix-Simula3MS
 ```
 
 Or use it in your flake, adding it to your inputs:
@@ -33,7 +33,7 @@ Or use it in your flake, adding it to your inputs:
 inputs = {
   nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   simula3ms = {
-    url = "git+https://git.peprolinbot.com/peprolinbot/nix-Simula3MS";
+    url = "github:peprolinbot/nix-Simula3MS";
     inputs.nixpkgs.follows = "nixpkgs";
   };
 };
